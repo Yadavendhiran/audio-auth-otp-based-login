@@ -1,0 +1,6 @@
+speechbrain == 0.5.16
+torch == 2.1.0
+torchaudio == 2.1.0
+torchvision == 0.16.0
+numpy == 1.26.4
+huggingface_hub == 0.19.4
