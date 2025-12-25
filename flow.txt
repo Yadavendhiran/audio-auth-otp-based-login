@@ -1,0 +1,28 @@
+options:
+login 
+sign up
+
+sign up:
+get email id
+get username/not real name
+get 3 voice rec 
+convert each into embed after each 10sec span
+file name is returned and stored in list 
+list is pass to embed function
+and all is stored in a list of tensor
+This list of tensor store as value pair for the key of gmail
+
+login:
+generate random txt to avoid rec fake voice
+generated sentences is compare with audio rec stt
+make user to write name/email not yet decided 
+voice is recorded 
+send across for cosine similarity using nn
+after finding match email is send
+otp obtained
+auth ready 
+it will 2.5 MFA
+
+MFA factor
+speech: speech to text and speak recognition
+otp : email
